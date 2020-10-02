@@ -20,13 +20,15 @@
         <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css"/>
         <link href="{{asset('storage/libraries/hamburger/hamburgers.min.css')}}" rel="stylesheet">
 
-        <link rel="stylesheet" type="text/css" href="{{asset('storage/libraries/snow/snowfall.css')}}">
-
         <!--light gallery-->
         <link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
 
         <!--Izmir - ImageHover CSS Library-->
         <link rel="stylesheet" href="{{asset('storage/libraries/Izmir_hover_effect/izmir.min.css')}}">
+
+        <!--Hover CSS Library-->
+        <link href="{{asset('storage/libraries/hover/hover-min.css')}}" rel="stylesheet">
+
 
         <style>
             @font-face {
@@ -49,24 +51,19 @@
 
         <div>
 
-            <snowfall>
-                <snowflake><span>❄</span>️️</snowflake>
-                <snowflake><span>🍂</span>️️</snowflake>
-                <snowflake><span>💝</span> ️️</snowflake>
-                <snowflake><span>🌟</span>️</snowflake>
-                <snowflake><img src="{{asset('storage/images/snowflake.png')}}">️</snowflake>
-            </snowfall>
-
+{{--            @include('our_story_test')--}}
             @include('desktop_nav')
             @include('mobile_nav')
             @include('banner')
             @include('our_story')
+{{--            @include('mouse_move_effect')--}}
             @include('overview')
             @include('cake_card')
             @include('map')
             @include('contact')
             @include('gallery')
             @include('footer')
+            @include('snow')
 
         </div>
 
@@ -87,6 +84,17 @@
         <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
         <script>
             lightGallery(document.getElementById('lightgallery'))
+        </script>
+
+        <!--Tilt JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script src="{{asset('storage/libraries/tilt_js/tilt.jquery.min.js')}}"></script> <!-- Load Tilt.js library -->
+        <script>
+            $('.js-tilt').tilt({
+                glare: true,
+                maxGlare: .5,
+                reset: false,
+            })
         </script>
 
     </body>

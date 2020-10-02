@@ -83,6 +83,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            overflow: hidden;
         }
         .d-mobile-nav-logo{
             flex: 1;

@@ -26,7 +26,7 @@
                             Please provide a valid password.
                         </div>
                     </div>
-                    <button data-aos="slide-up" type="submit" class="d-btn-submit btn btn-primary">Submit</button>
+                    <button  data-aos="slide-up" type="submit" class="d-btn-submit btn btn-primary">Submit</button>
                 </form>
 
                 <script>

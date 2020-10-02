@@ -3,7 +3,7 @@
     <div class="d-our-story-background" style="background-image: url('{{asset('storage/images/our_story_background.jpg')}}')">
 
         <div class="d-our-story-content" >
-            <div class="d-our-story-img">
+            <div data-tilt class="js-tilt d-our-story-img">
                 <img data-aos="flip-up" src="{{asset('storage/images/our_story_image.jpg')}}" alt="">
             </div>
             <div class="d-our-story-text">

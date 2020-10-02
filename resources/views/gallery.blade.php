@@ -163,29 +163,15 @@
         flex-direction: row;
         gap: 20px;
         flex-wrap: wrap;
+        overflow: hidden;
     }
     .d-gallery-item{
         flex: 1 0 30%;
         height: 400px;
         background-color: transparent;
-        cursor: pointer;
+        cursor: pointer !important;
         overflow: hidden;
         position: relative;
-    }
-    .d-gallery-item .d-gallery-item-image{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: 0.3s ease;
-    }
-    .d-gallery-item-overlay{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0, 0.7);
-        opacity: 0;
-        transition: 0.3s ease;
-        z-index: 1000;
     }
     .d-gallery-item:hover .d-gallery-item-image{
         transform: scale(1.1);

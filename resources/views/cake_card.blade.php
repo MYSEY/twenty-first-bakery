@@ -64,6 +64,7 @@
         justify-content: center;
         align-items: center;
         gap: 40px;
+        overflow: hidden;
     }
     .d-cake-card-item{
         flex: 1;
@@ -76,6 +77,7 @@
         align-items: center;
         gap: 10px;
         padding: 0 40px;
+        background-color: white;
     }
     .d-cake-card-img{
         width: 100%;
