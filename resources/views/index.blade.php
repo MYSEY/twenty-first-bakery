@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Twenty First Bakery</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
@@ -19,6 +19,14 @@
 
         <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css"/>
         <link href="{{asset('storage/libraries/hamburger/hamburgers.min.css')}}" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="{{asset('storage/libraries/snow/snowfall.css')}}">
+
+        <!--light gallery-->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
+
+        <!--Izmir - ImageHover CSS Library-->
+        <link rel="stylesheet" href="{{asset('storage/libraries/Izmir_hover_effect/izmir.min.css')}}">
 
         <style>
             @font-face {
@@ -41,6 +49,14 @@
 
         <div>
 
+            <snowfall>
+                <snowflake><span>❄</span>️️</snowflake>
+                <snowflake><span>🍂</span>️️</snowflake>
+                <snowflake><span>💝</span> ️️</snowflake>
+                <snowflake><span>🌟</span>️</snowflake>
+                <snowflake><img src="{{asset('storage/images/snowflake.png')}}">️</snowflake>
+            </snowfall>
+
             @include('desktop_nav')
             @include('mobile_nav')
             @include('banner')
@@ -59,5 +75,19 @@
         <script>
             AOS.init();
         </script>
+
+        <!--light gallery-->
+        <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script>
+            lightGallery(document.getElementById('lightgallery'))
+        </script>
+
     </body>
 </html>

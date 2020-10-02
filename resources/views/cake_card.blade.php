@@ -3,7 +3,7 @@
     <div class="d-cake-card-background">
         <div class="d-cake-card-content">
 
-            <div class="d-cake-card-item">
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="300" class="d-cake-card-item">
                 <div class="d-cake-card-img">
                     <img src="{{asset('storage/images/card_one.jpg')}}" alt="">
                 </div>
@@ -13,7 +13,7 @@
                 </div>
             </div>
 
-            <div class="d-cake-card-item">
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="200" class="d-cake-card-item">
                 <div class="d-cake-card-img">
                     <img src="{{asset('storage/images/card_one.jpg')}}" alt="">
                 </div>
@@ -23,7 +23,7 @@
                 </div>
             </div>
 
-            <div class="d-cake-card-item">
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="400" class="d-cake-card-item">
                 <div class="d-cake-card-img">
                     <img src="{{asset('storage/images/card_one.jpg')}}" alt="">
                 </div>
@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <div class="d-cake-card-item">
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="600" class="d-cake-card-item">
                 <div class="d-cake-card-img">
                     <img src="{{asset('storage/images/card_one.jpg')}}" alt="">
                 </div>

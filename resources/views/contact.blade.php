@@ -6,7 +6,7 @@
             <div class="d-contact-form">
 
                 <form class="needs-validation" novalidate>
-                    <div class="form-group">
+                    <div data-aos="slide-up" class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         <div class="valid-feedback">
@@ -16,7 +16,7 @@
                             Please provide a valid email.
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div data-aos="slide-up" class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" required>
                         <div class="valid-feedback">
@@ -26,7 +26,7 @@
                             Please provide a valid password.
                         </div>
                     </div>
-                    <button type="submit" class="d-btn-submit btn btn-primary">Submit</button>
+                    <button data-aos="slide-up" type="submit" class="d-btn-submit btn btn-primary">Submit</button>
                 </form>
 
                 <script>
@@ -53,9 +53,9 @@
 
             <div class="d-contact-text">
 
-                <h1 class="d-contact-text-header">Visit our shops</h1>
-                <p class="d-contact-text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                <p class="d-contact-text-desc">09:00-19h Monday – Friday<br/>75-11 Jewett Ave Jersey City, NJ 07304 USA<br/>+ (1) 555 678 786</p>
+                <h1 data-aos="slide-up" data-aos-duration="1000" class="d-contact-text-header">Visit our shops</h1>
+                <p data-aos="slide-up" data-aos-duration="1000" class="d-contact-text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <p data-aos="slide-up" data-aos-duration="1000" class="d-contact-text-desc">09:00-19h Monday – Friday<br/>75-11 Jewett Ave Jersey City, NJ 07304 USA<br/>+ (1) 555 678 786</p>
 
             </div>
 
@@ -76,7 +76,7 @@
         align-items: center;
     }
     .d-contact-content{
-        width: 60%;
+        width: 75%;
         height: auto;
         background-color: white;
         position: absolute;
@@ -92,6 +92,7 @@
         align-items: center;
         gap: 20px;
         padding: 50px;
+        overflow: hidden;
     }
     .d-contact-form{
         flex: 1;

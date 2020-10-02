@@ -3,28 +3,28 @@
     <div class="d-overview-background">
         <div class="d-overview-content">
 
-            <div class="d-overview-item">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item">
                 <div class="d-overview-item-content">
                     <h1 class="d-overview-item-content-header">Love</h1>
                     <p class="d-overview-item-content-desc">Chocolate</p>
                 </div>
-                <img src="{{asset('storage/images/overview_one.jpg')}}" alt="">
+                <img src="{{asset('storage/images/S21_3389.jpg')}}" alt="">
             </div>
 
-            <div class="d-overview-item">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" class="d-overview-item">
                 <div class="d-overview-item-content">
                     <h1 class="d-overview-item-content-header">Love</h1>
                     <p class="d-overview-item-content-desc">Chocolate</p>
                 </div>
-                <img src="{{asset('storage/images/overview_one.jpg')}}" alt="">
+                <img src="{{asset('storage/images/S21_3389.jpg')}}" alt="">
             </div>
 
-            <div class="d-overview-item">
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="600" class="d-overview-item">
                 <div class="d-overview-item-content">
                     <h1 class="d-overview-item-content-header">Love</h1>
                     <p class="d-overview-item-content-desc">Chocolate</p>
                 </div>
-                <img src="{{asset('storage/images/overview_one.jpg')}}" alt="">
+                <img src="{{asset('storage/images/S21_3389.jpg')}}" alt="">
             </div>
 
         </div>

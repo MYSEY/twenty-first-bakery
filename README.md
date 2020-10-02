@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Libraries
+- [AOS Scroll Animation](https://michalsnik.github.io/aos/)
+- [Izmir CSS Mouse Hover Effect](https://ciar4n-izmir.netlify.app/#/customisation)
+- [Light Gallery for Gallery Lightbox Preview](https://sachinchoolur.github.io/lightgallery.js/)
+- [Bootstrap Form and validation](https://getbootstrap.com/docs/4.3/components/forms/)
+- [Pushbar for mobile navigation menu](https://oncebot.github.io/pushbar.js/)
+- [Snowfall css effect](https://www.cssscript.com/demo/css-only-snow-falling-effect/)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
