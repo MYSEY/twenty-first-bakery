@@ -51,27 +51,21 @@
 
         <div>
 
-{{--            @include('our_story_test')--}}
             @include('desktop_nav')
             @include('mobile_nav')
             @include('banner')
             @include('our_story')
-{{--            @include('mouse_move_effect')--}}
             @include('overview')
-            @include('cake_card')
             @include('map')
             @include('contact')
+            @include('table_cake')
             @include('gallery')
             @include('footer')
             @include('snow')
 
         </div>
 
-        <!--AOS-->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+
 
         <!--light gallery-->
         <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
@@ -86,15 +80,14 @@
             lightGallery(document.getElementById('lightgallery'))
         </script>
 
-        <!--Tilt JS-->
+        <!--tweenmax gsap-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-        <script src="{{asset('storage/libraries/tilt_js/tilt.jquery.min.js')}}"></script> <!-- Load Tilt.js library -->
+{{--        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>--}}<!--tweenmax is add in overview file-->
+
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            $('.js-tilt').tilt({
-                glare: true,
-                maxGlare: .5,
-                reset: false,
-            })
+            AOS.init();
         </script>
 
     </body>

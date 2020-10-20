@@ -1,6 +1,6 @@
 <div class="d-footer">
 
-    <div class="d-footer-background" style="background-image: url('{{asset('storage/images/footer-img.jpg')}}')">
+    <div class="d-footer-background" style="background-image: url('{{asset('storage/images/footer.jpg')}}')">
         <div class="d-footer-content">
             <img class="d-footer-logo" src="{{asset('storage/images/logo.svg')}}" alt="">
             <p class="d-footer-text">&copy Twenty First Backery — All Rights Reserved<br/>Proudly Made For You.</p>
@@ -31,6 +31,7 @@
         align-items: center;
         gap: 10px;
         padding: 100px;
+        background-color: rgba(200, 233, 226, 0.7);
     }
     .d-footer-logo{
         width: 50px;

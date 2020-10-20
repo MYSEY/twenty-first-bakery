@@ -104,8 +104,6 @@
 
 <div id='container'></div>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-
 
 <script>
     /*Downloaded from https://www.codeseek.co/jasonbaciulis/greensock-snowing-animation-gLXgVZ */

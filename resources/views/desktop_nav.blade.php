@@ -22,7 +22,7 @@
 <style>
     .d-desktop-nav{
         width: 100%;
-        height: 70px;
+        height: 90px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -33,6 +33,8 @@
         z-index: 1000000;
         position: fixed;
         overflow: hidden;
+        background-color: #C8E9E2;
+        top: 0;
     }
     .d-desktop-nav-content{
         width: 70%;
@@ -58,15 +60,16 @@
         justify-content: center;
         align-items: center;
         padding: 10px;
-        color: white;
+        color: #653507;
         text-transform: uppercase;
         width: 100px;
         letter-spacing: 3px;
         border-bottom: 2px solid transparent;
         transition: 0.3s ease;
+        font-size: 24px;
     }
     .d-desktop-nav-menu a:hover{
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #653507;
     }
     .d-desktop-nav-logo{
         flex: 1;

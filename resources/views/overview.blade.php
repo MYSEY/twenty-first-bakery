@@ -1,7 +1,7 @@
 <div class="d-overview">
 
     <div class="d-overview-background">
-        <div id="lightgallery" class="d-overview-content">
+        <div class="d-overview-content">
 
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/1.jpg')}}" data-intensity="-0.8">
                 <!--content text-->
@@ -9,13 +9,13 @@
                     <h1 class="d-overview-item-content-header">Love</h1>
                     <figcaption class="c4-layout-bottom-center">
                         <div class="c4-rotate-up-right">
-                            <h4>Chocolate</h4>
+                            <h4 class="d-overview-item-content-desc">Chocolate</h4>
                         </div>
                     </figcaption>
                 </figure>
                 <!--content image-->
-                <img src="{{asset('storage/libraries/mouse_move_effect/img/Img26.jpg')}}" alt="Image"/>
-                <img src="{{asset('storage/libraries/mouse_move_effect/img/Img25.jpg')}}" alt="Image Alt"/>
+                <img src="{{asset('storage/images/image-one.jpg')}}" alt="Image"/>
+                <img src="{{asset('storage/images/image-one.jpg')}}" alt="Image Alt"/>
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/13.jpg')}}" data-intensity="-0.8">
@@ -24,13 +24,13 @@
                     <h1 class="d-overview-item-content-header">Love</h1>
                     <figcaption class="c4-layout-bottom-center">
                         <div class="c4-rotate-up-right">
-                            <h4>Chocolate</h4>
+                            <h4 class="d-overview-item-content-desc">Chocolate</h4>
                         </div>
                     </figcaption>
                 </figure>
                 <!--content image-->
-                <img src="{{asset('storage/libraries/mouse_move_effect/img/Img26.jpg')}}" alt="Image"/>
-                <img src="{{asset('storage/libraries/mouse_move_effect/img/Img25.jpg')}}" alt="Image Alt"/>
+                <img src="{{asset('storage/images/image-two.jpg')}}" alt="Image"/>
+                <img src="{{asset('storage/images/image-two.jpg')}}" alt="Image Alt"/>
             </div>
 
             <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/12.jpg')}}" data-intensity="-0.8">
@@ -39,30 +39,14 @@
                     <h1 class="d-overview-item-content-header">Love</h1>
                     <figcaption class="c4-layout-bottom-center">
                         <div class="c4-rotate-up-right">
-                            <h4>Chocolate</h4>
+                            <h4 class="d-overview-item-content-desc">Chocolate</h4>
                         </div>
                     </figcaption>
                 </figure>
                 <!--content image-->
-                <img src="{{asset('storage/libraries/mouse_move_effect/img/Img26.jpg')}}" alt="Image"/>
-                <img src="{{asset('storage/libraries/mouse_move_effect/img/Img25.jpg')}}" alt="Image Alt"/>
+                <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
+                <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
             </div>
-
-{{--            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" class="d-overview-item">--}}
-{{--                <div class="d-overview-item-content">--}}
-{{--                    <h1 class="d-overview-item-content-header">Love</h1>--}}
-{{--                    <p class="d-overview-item-content-desc">Chocolate</p>--}}
-{{--                </div>--}}
-{{--                <img src="{{asset('storage/images/S21_3389.jpg')}}" alt="">--}}
-{{--            </div>--}}
-
-{{--            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="600" class="d-overview-item">--}}
-{{--                <div class="d-overview-item-content">--}}
-{{--                    <h1 class="d-overview-item-content-header">Love</h1>--}}
-{{--                    <p class="d-overview-item-content-desc">Chocolate</p>--}}
-{{--                </div>--}}
-{{--                <img src="{{asset('storage/images/S21_3389.jpg')}}" alt="">--}}
-{{--            </div>--}}
 
         </div>
     </div>
@@ -74,7 +58,7 @@
         width: 100%;
         height: auto;
         background-color: white;
-        padding: 20px;
+        padding: 50px;
     }
     .d-overview-content{
         width: 80%;
@@ -126,7 +110,11 @@
         line-height: 1;
     }
     @media only screen and (max-width: 600px) {
+        .d-overview-background{
+            padding: 10px;
+        }
         .d-overview-content{
+            width: 100%;
             flex-direction: column;
             gap: 10px;
         }
@@ -141,22 +129,24 @@
 
 <script src="{{asset('storage/libraries/mouse_move_effect/js/imagesloaded.pkgd.min.js')}}"></script>
 <script src="{{asset('storage/libraries/mouse_move_effect/js/three.min.js')}}"></script>
-<script src="{{asset('storage/libraries/mouse_move_effect/js/TweenMax.min.js')}}"></script>
+<script src="{{asset('storage/libraries/mouse_move_effect/js/TweenMax.min.js')}}"></script><!--tweenmax is added in index file-->
 <script src="{{asset('storage/libraries/mouse_move_effect/js/hover-effect.umd.js')}}"></script>
 
 <script>
-    Array.from(document.querySelectorAll('.d-overview-item')).forEach((el) => {
-        const imgs = Array.from(el.querySelectorAll('img'));
-        new hoverEffect({
-            parent: el,
-            intensity: el.dataset.intensity || undefined,
-            speedIn: el.dataset.speedin || undefined,
-            speedOut: el.dataset.speedout || undefined,
-            easing: el.dataset.easing || undefined,
-            hover: el.dataset.hover || undefined,
-            image1: imgs[0].getAttribute('src'),
-            image2: imgs[1].getAttribute('src'),
-            displacementImage: el.dataset.displacement
+    $(document).ready(function() {
+        Array.from(document.querySelectorAll('.d-overview-item')).forEach((el) => {
+            const imgs = Array.from(el.querySelectorAll('img'));
+            new hoverEffect({
+                parent: el,
+                intensity: el.dataset.intensity || undefined,
+                speedIn: el.dataset.speedin || undefined,
+                speedOut: el.dataset.speedout || undefined,
+                easing: el.dataset.easing || undefined,
+                hover: el.dataset.hover || undefined,
+                image1: imgs[0].getAttribute('src'),
+                image2: imgs[1].getAttribute('src'),
+                displacementImage: el.dataset.displacement
+            });
         });
     });
 </script>
