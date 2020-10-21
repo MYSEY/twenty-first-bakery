@@ -78,7 +78,7 @@
         transform: translateZ(0px);
         -moz-transform: translateZ(0px);
         -webkit-transform: translateZ(0px);
-        padding: 20px;
+        /*padding: 20px;*/
         position: relative;
         /* background-color: red; */
     }

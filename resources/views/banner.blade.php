@@ -27,4 +27,15 @@
     .d-banner-content img{
         width: 100%;
     }
+    @media only screen and (max-width: 600px) {
+        .d-banner-background{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 70px;
+        }
+    }
 </style>

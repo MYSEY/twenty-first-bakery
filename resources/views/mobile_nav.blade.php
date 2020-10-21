@@ -20,10 +20,11 @@
 
 <div data-pushbar-id="mypushbar1" data-pushbar-direction="right">
     <div class="d-nav-content">
-        <button data-pushbar-close type="button">
-                <span class="hamburger-box">
-                  <span class="hamburger-inner"></span>
-                </span>
+
+        <button data-pushbar-close class="hamburger" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
         </button>
 
 {{--        <div class="d-nav-menu-wrapper">--}}

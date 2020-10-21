@@ -212,33 +212,52 @@
 
 
 <script>
-    function myFunction(x) {
-        if (x.matches) { // If media query matches
-            //console.log("mobile")
-            let mySwiper2 = new Swiper('#swiper-container2', {
-                watchSlidesProgress: true,
-                watchSlidesVisibility: true,
-                slidesPerView: 1,
-                spaceBetween: 30,
-                loop: true,
-                grabCursor: true,
-            })
-        } else {
-            //console.log("Desktop")
-            let mySwiper2 = new Swiper('#swiper-container2', {
-                watchSlidesProgress: true,
-                watchSlidesVisibility: true,
-                slidesPerView: 3,
-                spaceBetween: 30,
-                loop: true,
-                grabCursor: true,
-            })
-        }
-    }
+    // function myFunction(x) {
+    //     if (x.matches) { // If media query matches
+    //         //console.log("mobile")
+    //         let mySwiper2 = new Swiper('#swiper-container2', {
+    //             watchSlidesProgress: true,
+    //             watchSlidesVisibility: true,
+    //             slidesPerView: 1,
+    //             spaceBetween: 0,
+    //             loop: true,
+    //             grabCursor: true,
+    //         })
+    //     } else {
+    //         //console.log("Desktop")
+    //
+    //     }
+    // }
+    //
+    // var x = window.matchMedia("(max-width: 700px)")
+    // myFunction(x) // Call listener function at run time
+    // x.addListener(myFunction) // Attach listener function on state changes
 
-    var x = window.matchMedia("(max-width: 700px)")
-    myFunction(x) // Call listener function at run time
-    x.addListener(myFunction) // Attach listener function on state changes
+    let mySwiper2 = new Swiper('#swiper-container2', {
+        watchSlidesProgress: true,
+        watchSlidesVisibility: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        grabCursor: true,
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            // when window width is >= 480px
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 0
+            },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            }
+        }
+    })
 
 
     $(document).ready(function() {

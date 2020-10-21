@@ -63,7 +63,15 @@
     @media only screen and (max-width: 600px) {
         .d-footer-content{
             gap: 5px;
-            padding: 30px 0;
+            padding: 20px 0;
+            font-size: 20px;
+            line-height: 1;
+        }
+        .d-footer-social a{
+            padding: 10px;
+            width: 30px;
+            height: 30px;
+            font-size: 12px;
         }
     }
 </style>
