@@ -30,7 +30,7 @@
         -webkit-box-shadow: 0px 3px 16px -6px rgba(107,107,107,1);
         -moz-box-shadow: 0px 3px 16px -6px rgba(107,107,107,1);
         box-shadow: 0px 3px 16px -6px rgba(107,107,107,1);
-        z-index: 1000000;
+        z-index: 10;
         position: fixed;
         overflow: hidden;
         background-color: #C8E9E2;

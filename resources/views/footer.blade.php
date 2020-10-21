@@ -30,14 +30,15 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding: 100px;
-        background-color: rgba(200, 233, 226, 0.7);
+        padding: 80px;
+        background-color: rgba(200, 233, 226, 0.8);
+        font-size: 26px;
+        color: #6E3507;
     }
     .d-footer-logo{
         width: 50px;
     }
     .d-footer-text{
-        color: white;
         text-align: center;
     }
     .d-footer-social{
@@ -48,15 +49,16 @@
         gap: 10px;
     }
     .d-footer-social a{
-        padding: 10px;
+        padding: 20px;
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-color: #AED5C3;
+        background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
         color: black;
+        font-size: 16px;
     }
     @media only screen and (max-width: 600px) {
         .d-footer-content{

@@ -20,7 +20,7 @@
 
 <div data-pushbar-id="mypushbar1" data-pushbar-direction="right">
     <div class="d-nav-content">
-        <button data-pushbar-close class="hamburger" type="button">
+        <button data-pushbar-close type="button">
                 <span class="hamburger-box">
                   <span class="hamburger-inner"></span>
                 </span>
@@ -41,22 +41,16 @@
 {{--                </div>--}}
 {{--            </div>--}}
 {{--        </div>--}}
-
-
     </div>
 </div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
 <script>
-    document.addEventListener(
-        "DOMContentLoaded", () => {
-
-            new Pushbar({
-                blur: true,
-                overlay: true,
-            });
-
-        }
-    );
+    new Pushbar({
+        blur:true,
+        overlay:true,
+    });
 </script>
 
 <style>
@@ -69,12 +63,13 @@
             height: 70px;
             background-color: white;
             overflow: hidden;
-            z-index: 100;
+            z-index: 10;
             position: fixed;
             display: block;
             -webkit-box-shadow: 0px 3px 16px -6px rgba(107,107,107,1);
             -moz-box-shadow: 0px 3px 16px -6px rgba(107,107,107,1);
             box-shadow: 0px 3px 16px -6px rgba(107,107,107,1);
+            top: 0;
         }
         .d-mobile-nav-content{
             width: 100%;

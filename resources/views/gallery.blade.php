@@ -1,10 +1,10 @@
 <div class="d-gallery">
 
-    <div class="d-gallery-background" style="background-image: url('{{asset("storage/images/gallery_background.jpg")}}')">
+    <div class="d-gallery-background">
         <div id="lightgallery" class="d-gallery-content">
 
             <!-- Izmir - ImageHover CSS Library -->
-            <div data-aos="zoom-in-up" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
+            <div data-aos="zoom-in-up" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="{{asset('storage/images/gallery_one.jpg')}}"
                  data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
 
                 <!-- Izmir - ImageHover CSS Library -->
@@ -26,7 +26,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="200" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
+            <div data-aos="zoom-in-up" data-aos-delay="200" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="{{asset('storage/images/gallery_two.jpg')}}"
                  data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
 
                 <!-- Izmir - ImageHover CSS Library -->
@@ -48,7 +48,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="400" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
+            <div data-aos="zoom-in-up" data-aos-delay="400" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="{{asset('storage/images/gallery_three.jpg')}}"
                  data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
 
                 <!-- Izmir - ImageHover CSS Library -->
@@ -70,7 +70,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="600" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
+            <div data-aos="zoom-in-up" data-aos-delay="600" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="{{asset('storage/images/gallery_four.jpg')}}"
                  data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
 
                 <!-- Izmir - ImageHover CSS Library -->
@@ -92,7 +92,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="800" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
+            <div data-aos="zoom-in-up" data-aos-delay="800" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="{{asset('storage/images/gallery_five.jpg')}}"
                  data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
 
                 <!-- Izmir - ImageHover CSS Library -->
@@ -114,7 +114,7 @@
 
             </div>
 
-            <div data-aos="zoom-in-up" data-aos-delay="1000" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
+            <div data-aos="zoom-in-up" data-aos-delay="1000" class="d-gallery-item" data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="{{asset('storage/images/gallery_six.jpg')}}"
                  data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
 
                 <!-- Izmir - ImageHover CSS Library -->
@@ -156,7 +156,7 @@
     }
     .d-gallery-content{
         margin-top: 20px;
-        width: 70%;
+        width: 75%;
         height: auto;
         /*background-color: red;*/
         display: flex;

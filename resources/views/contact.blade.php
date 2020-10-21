@@ -82,7 +82,7 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        z-index: 10;
+        z-index: 9;
         -webkit-box-shadow: 0px 0px 18px 3px rgba(128,128,128,1);
         -moz-box-shadow: 0px 0px 18px 3px rgba(128,128,128,1);
         box-shadow: 0px 0px 18px 3px rgba(128,128,128,1);
