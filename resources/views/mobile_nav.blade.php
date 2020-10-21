@@ -47,9 +47,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
 <script>
-    new Pushbar({
-        blur:true,
-        overlay:true,
+    $(document).ready(function() {
+        new Pushbar({
+            blur:true,
+            overlay:true,
+        });
     });
 </script>
 

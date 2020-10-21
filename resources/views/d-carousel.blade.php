@@ -154,7 +154,7 @@
 
 
     .d-overview-item{
-        flex: 1;
+        width: 100%;
         height: 100%;
         cursor: pointer;
         overflow: hidden;
@@ -191,6 +191,14 @@
         margin: 0;
         line-height: 1;
     }
+    @media only screen and (max-width: 600px) {
+        .d-overview-background{
+            padding: 50px 0px;
+        }
+        .swiper-container {
+            height: 300px;
+        }
+    }
 </style>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
@@ -204,14 +212,34 @@
 
 
 <script>
-    let mySwiper2 = new Swiper('#swiper-container2', {
-        watchSlidesProgress: true,
-        watchSlidesVisibility: true,
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        grabCursor: true,
-    })
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+            //console.log("mobile")
+            let mySwiper2 = new Swiper('#swiper-container2', {
+                watchSlidesProgress: true,
+                watchSlidesVisibility: true,
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                grabCursor: true,
+            })
+        } else {
+            //console.log("Desktop")
+            let mySwiper2 = new Swiper('#swiper-container2', {
+                watchSlidesProgress: true,
+                watchSlidesVisibility: true,
+                slidesPerView: 3,
+                spaceBetween: 30,
+                loop: true,
+                grabCursor: true,
+            })
+        }
+    }
+
+    var x = window.matchMedia("(max-width: 700px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
 
     $(document).ready(function() {
         Array.from(document.querySelectorAll('.d-overview-item')).forEach((el) => {

@@ -189,7 +189,7 @@
             margin-top: -15%;
         }
         .d-gallery-content{
-            margin: 250px 0 100px 0;
+            margin: 80px 0 50px 0;
             width: 100%;
             flex-direction: column;
             gap: 20px;

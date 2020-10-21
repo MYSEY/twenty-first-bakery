@@ -57,6 +57,7 @@
             @include('our_story')
 {{--            @include('overview')--}}
             @include('d-carousel')
+{{--            @include('d-carousel-mobile')--}}
             @include('map')
             @include('contact')
             @include('table_cake')

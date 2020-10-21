@@ -10,9 +10,9 @@
 {{--                    <div class="d-our-story-image-staff">--}}
 {{--                        <img src="{{asset('storage/images/people.png')}}" alt="">--}}
 {{--                    </div>--}}
-                    <div class="d-our-story-image-logo">
-                        <img src="{{asset('storage/images/logo.svg')}}" alt="">
-                    </div>
+{{--                    <div class="d-our-story-image-logo">--}}
+{{--                        <img src="{{asset('storage/images/logo.svg')}}" alt="">--}}
+{{--                    </div>--}}
                     <!-- <div class="tagline">
                     GSAP 3D Parallax Demo
                     </div> -->
@@ -87,33 +87,33 @@
         height: 100%;
         object-fit: cover;
     }
-    .d-our-story-image-logo{
-        width: 142px;
-        height: auto;
-        position: absolute;
-        bottom: 100%;
-        right: 100%;
-        transform: translateZ(50px) translate(100%, 100%);
-        -moz-transform: translateZ(50px) translate(100%, 100%);
-        -webkit-transform: translateZ(50px) translate(100%, 100%);
-    }
+    /*.d-our-story-image-logo{*/
+    /*    width: 142px;*/
+    /*    height: auto;*/
+    /*    position: absolute;*/
+    /*    bottom: 100%;*/
+    /*    right: 100%;*/
+    /*    transform: translateZ(50px) translate(100%, 100%);*/
+    /*    -moz-transform: translateZ(50px) translate(100%, 100%);*/
+    /*    -webkit-transform: translateZ(50px) translate(100%, 100%);*/
+    /*}*/
     .d-our-story-image-logo img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .d-our-story-image-staff {
-        width: 120px;
-        height: auto;
-        position: absolute;
-        transform: translateZ(60px);
-        -moz-transform: translateZ(60px);
-        -webkit-transform: translateZ(60px);
-        bottom: 0;
-        left: 50%;
-        margin-left: -198px;
-    }
+    /*.d-our-story-image-staff {*/
+    /*    width: 120px;*/
+    /*    height: auto;*/
+    /*    position: absolute;*/
+    /*    transform: translateZ(60px);*/
+    /*    -moz-transform: translateZ(60px);*/
+    /*    -webkit-transform: translateZ(60px);*/
+    /*    bottom: 0;*/
+    /*    left: 50%;*/
+    /*    margin-left: -198px;*/
+    /*}*/
     .d-our-story-image-staff img{
         width: 100%;
         height: 100%;
@@ -184,13 +184,24 @@
             flex-direction: column;
             gap: 20px;
         }
-        .d-our-story-image-logo{
-            width: 100px;
+        /*.d-our-story-image-logo{*/
+        /*    width: 100px;*/
+        /*}*/
+        /*.d-our-story-image-staff {*/
+        /*    width: 80px;*/
+        /*    left: 30%;*/
+        /*    margin-left: 0;*/
+        /*}*/
+        .d-our-story-img{
+            height: 100%;
+            width: 100%;
         }
-        .d-our-story-image-staff {
-            width: 80px;
-            left: 30%;
-            margin-left: 0;
+        .d-our-story-text{
+            width: 100%;
+        }
+        .d-our-story-text .d-our-story-text-desc{
+            font-size: 22px;
+            text-align: center;
         }
     }
 </style>
