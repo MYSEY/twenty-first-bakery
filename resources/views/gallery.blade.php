@@ -179,6 +179,10 @@
     .d-gallery-item:hover .d-gallery-item-overlay{
         opacity: 1;
     }
+    .c4-izmir{
+        --primary-color: #C8E9E2;
+        --secondary-color: #0bb893;
+    }
     @media only screen and (max-width: 600px) {
         .d-gallery-background{
             background-size: contain;
