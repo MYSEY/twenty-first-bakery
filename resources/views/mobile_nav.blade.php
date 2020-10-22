@@ -27,12 +27,12 @@
             </span>
         </button>
 
-{{--        <div class="d-nav-menu-wrapper">--}}
-{{--            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'home' ? 'd-nav-menu-item-active' : '' }}" href="#">Hello</a>--}}
-{{--            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'product' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>--}}
-{{--            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'dealer' ? 'd-nav-menu-item-active' : '' }}" href="#">menu</a>--}}
-{{--            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'contact' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>--}}
-{{--            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'test_drive' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>--}}
+        <div class="d-nav-menu-wrapper">
+            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'home' ? 'd-nav-menu-item-active' : '' }}" href="#">Hello</a>
+            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'product' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
+            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'dealer' ? 'd-nav-menu-item-active' : '' }}" href="#">menu</a>
+            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'contact' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
+            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'test_drive' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
 
 {{--            <div class="lang-switcher">--}}
 {{--                <p class="lang-switcher-header">Languages</p>--}}
@@ -41,7 +41,9 @@
 {{--                    <a class="order-first" href="{{route(Route::currentRouteName(), 'laos')}}"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg" alt=""></a>--}}
 {{--                </div>--}}
 {{--            </div>--}}
-{{--        </div>--}}
+        </div>
+
+
     </div>
 </div>
 
@@ -98,6 +100,17 @@
             display: flex;
             justify-content: flex-end;
             align-items: center;
+        }
+        .d-nav-menu-item{
+            display: block;
+            text-decoration:none;
+            padding: 20px 10px;
+            color: black;
+            border-radius: 3px;
+        }
+        .d-nav-menu-item-active{
+            background-color: red;
+            color: white;
         }
     }
 </style>

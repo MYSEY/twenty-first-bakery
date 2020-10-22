@@ -36,7 +36,8 @@
         position: absolute;
         width: 10px;
         height: 10px;
-        background: url(http://www.freepngimg.com/thumb/snowflakes/52-snowflake-png-image-thumb.png);
+        /*background: url(http://www.freepngimg.com/thumb/snowflakes/52-snowflake-png-image-thumb.png);*/
+        background: url("{{asset('storage/images/52-snowflake-png-image-thumb.png')}}");
         background-size: 100% 100%;
     }
     .starMedium {
@@ -53,7 +54,8 @@
         position: absolute;
         width: 25px;
         height: 25px;
-        background: url(http://pngimg.com/upload/snowflakes_PNG7576.png);
+        /*background: url(http://pngimg.com/upload/snowflakes_PNG7576.png);*/
+        background-image: url("{{asset('storage/images/frozen.svg')}}");
         background-size: 100% 100%;
     }
     .realMedium {
@@ -71,7 +73,8 @@
         width: 20px;
         height: 20px;
         background-size: 100% 100%;
-        background: url(http://pngimg.com/upload/snowflakes_PNG7559.png);
+        /*background: url(http://pngimg.com/upload/snowflakes_PNG7559.png);*/
+        background-image: url("{{asset('storage/images/snowflake.png')}}");
         background-size: 100% 100%;
     }
     .sharpMedium {
@@ -88,7 +91,8 @@
         position: absolute;
         width: 15px;
         height: 15px;
-        background-image: url(http://www.freepngimg.com/thumb/snowflakes/13-white-snowflake-png-image-thumb.png);
+        /*background-image: url(http://www.freepngimg.com/thumb/snowflakes/13-white-snowflake-png-image-thumb.png);*/
+        background-image: url("{{asset('storage/images/13-white-snowflake-png-image-thumb.png')}}");
         background-size: 100% 100%;
     }
     .ringMedium {
