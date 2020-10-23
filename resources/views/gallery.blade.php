@@ -11,16 +11,16 @@
                 <figure style="width: 100%; height: 100%" class="c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
                     <img src="{{asset('storage/images/gallery_one.jpg')}}" alt="Sample Image">
                     <figcaption>
-                        <div class="c4-rotate-up-right">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
-                        <div class="c4-rotate-down-left">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
+{{--                        <div class="c4-rotate-up-right">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="c4-rotate-down-left">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
                     </figcaption>
                 </figure>
 
@@ -33,16 +33,16 @@
                 <figure style="width: 100%; height: 100%" class="c4-izmir c4-border-bottom-left c4-image-rotate-right c4-gradient-bottom">
                     <img src="{{asset('storage/images/gallery_two.jpg')}}" alt="Sample Image">
                     <figcaption class="c4-layout-bottom-left">
-                        <div class="c4-fade-left">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
-                        <div class="c4-fade-left c4-delay-200">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
+{{--                        <div class="c4-fade-left">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="c4-fade-left c4-delay-200">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
                     </figcaption>
                 </figure>
 
@@ -55,16 +55,16 @@
                 <figure style="width: 100%; height: 100%" class="c4-izmir c4-border-ccc-1 c4-image-zoom-in c4-gradient-right">
                     <img src="{{asset('storage/images/gallery_three.jpg')}}" alt="Sample Image">
                     <figcaption class="c4-layout-bottom-left">
-                        <div class="c4-reveal-right">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
-                        <div class="c4-reveal-right c4-delay-200">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
+{{--                        <div class="c4-reveal-right">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="c4-reveal-right c4-delay-200">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
                     </figcaption>
                 </figure>
 
@@ -77,16 +77,16 @@
                 <figure style="width: 100%; height: 100%" class="c4-izmir c4-border-center c4-image-pan-left c4-gradient-left">
                     <img src="{{asset('storage/images/gallery_four.jpg')}}" alt="Sample Image">
                     <figcaption class="c4-layout-top-right">
-                        <div class="c4-fade-up">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
-                        <div class="c4-fade-up c4-delay-200">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
+{{--                        <div class="c4-fade-up">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="c4-fade-up c4-delay-200">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
                     </figcaption>
                 </figure>
 
@@ -99,16 +99,16 @@
                 <figure style="width: 100%; height: 100%" class="c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom-right">
                     <img src="{{asset('storage/images/gallery_five.jpg')}}" alt="Sample Image">
                     <figcaption class="c4-layout-center-right">
-                        <div class="c4-rotate-up-right">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
-                        <div class="c4-reveal-left c4-delay-200">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
+{{--                        <div class="c4-rotate-up-right">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="c4-reveal-left c4-delay-200">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
                     </figcaption>
                 </figure>
 
@@ -121,16 +121,16 @@
                 <figure style="width: 100%; height: 100%" class="c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
                     <img src="{{asset('storage/images/gallery_six.jpg')}}" alt="Sample Image">
                     <figcaption class="c4-layout-bottom-right">
-                        <div class="c4-reveal-left">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
-                        <div class="c4-reveal-left c4-delay-200">
-                            <h4>
-                                Sample Text
-                            </h4>
-                        </div>
+{{--                        <div class="c4-reveal-left">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="c4-reveal-left c4-delay-200">--}}
+{{--                            <h4>--}}
+{{--                                Sample Text--}}
+{{--                            </h4>--}}
+{{--                        </div>--}}
                     </figcaption>
                 </figure>
 

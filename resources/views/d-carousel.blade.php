@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
 <div class="d-overview">
@@ -20,14 +19,14 @@
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/image-one.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/image-one.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/image-monday.jpg')}}" alt="Monday"/>
+                        <img src="{{asset('storage/images/image-monday.jpg')}}" alt="Monday"/>
                     </div>
 
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/16.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/7.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
 {{--                            <h1 class="d-overview-item-content-header">Tuesday</h1>--}}
@@ -38,8 +37,8 @@
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/image-two.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/image-two.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/image-tuesday.jpg')}}" alt="Tuesday"/>
+                        <img src="{{asset('storage/images/image-tuesday.jpg')}}" alt="Tuesday"/>
                     </div>
 
                 </div>
@@ -56,8 +55,8 @@
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/image-wednesday.jpg')}}" alt="Wednesday"/>
+                        <img src="{{asset('storage/images/image-wednesday.jpg')}}" alt="Wednesday"/>
                     </div>
 
                 </div>
@@ -74,8 +73,8 @@
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/gallery_one.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/gallery_one.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/image-thursday.jpg')}}" alt="Thursday"/>
+                        <img src="{{asset('storage/images/image-thursday.jpg')}}" alt="Thursday"/>
                     </div>
 
                 </div>
@@ -92,44 +91,8 @@
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/gallery_two.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/gallery_two.jpg')}}" alt="Image Alt"/>
-                    </div>
-
-                </div>
-                <div class="swiper-slide">
-
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/7.jpg')}}" data-intensity="-0.8">
-                        <!--content text-->
-                        <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-{{--                            <h1 class="d-overview-item-content-header">Saturday</h1>--}}
-                            <figcaption class="c4-layout-bottom-center">
-                                <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Saturday</h4>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!--content image-->
-                        <img src="{{asset('storage/images/gallery_three.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/gallery_three.jpg')}}" alt="Image Alt"/>
-                    </div>
-
-                </div>
-                <div class="swiper-slide">
-
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/4.png')}}" data-intensity="-0.8">
-                        <!--content text-->
-                        <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-{{--                            <h1 class="d-overview-item-content-header">Sunday</h1>--}}
-                            <figcaption class="c4-layout-bottom-center">
-                                <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Sunday</h4>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!--content image-->
-                        <img src="{{asset('storage/images/gallery_four.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/gallery_four.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/image-friday.jpg')}}" alt="Friday"/>
+                        <img src="{{asset('storage/images/image-friday.jpg')}}" alt="Friday"/>
                     </div>
 
                 </div>
@@ -208,7 +171,6 @@
     }
 </style>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <script src="{{asset('storage/libraries/mouse_move_effect/js/imagesloaded.pkgd.min.js')}}"></script>
