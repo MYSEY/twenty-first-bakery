@@ -25,10 +25,13 @@
                 <p data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="500" class="d-our-story-text-desc">We launched our first bite in 2015 using our strong passion and delicate recipes within a small house and
                     minimal equipment with no staff. Almost a decade, we’re still making wonderful bakery that taste every bit as
                     good as they look and are hand crafted using only the finest ingredients.
+                </p>
+                <p data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="700" class="d-our-story-text-desc">
                     Introducing the iconic line of artisan speciality:  tailored-made cakes, artful Korean shaved ice, honey bread,
                     and other fresh drinks, 21 Bakery is expanding the deliciousness throughout Cambodia in Kampucheakhrom,
                     Bakery Toul kok and Khalandale with more than 50 staff as well as making every moment matters and focusing
-                    on social responsibilities with the passion to bake our way to a greener future.</p>
+                    on social responsibilities with the passion to bake our way to a greener future.
+                </p>
             </div>
         </div>
 

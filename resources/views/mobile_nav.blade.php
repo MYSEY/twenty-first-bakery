@@ -33,14 +33,6 @@
             <a class="d-nav-menu-item {{ Route::currentRouteName() == 'dealer' ? 'd-nav-menu-item-active' : '' }}" href="#">menu</a>
             <a class="d-nav-menu-item {{ Route::currentRouteName() == 'contact' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
             <a class="d-nav-menu-item {{ Route::currentRouteName() == 'test_drive' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
-
-{{--            <div class="lang-switcher">--}}
-{{--                <p class="lang-switcher-header">Languages</p>--}}
-{{--                <div class="lang-switcher-content">--}}
-{{--                    <a class="order-second" href="{{route(Route::currentRouteName(), 'en')}}"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_the_United_Kingdom_%282-3%29.svg" alt=""></a>--}}
-{{--                    <a class="order-first" href="{{route(Route::currentRouteName(), 'laos')}}"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg" alt=""></a>--}}
-{{--                </div>--}}
-{{--            </div>--}}
         </div>
 
 

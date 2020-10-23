@@ -75,7 +75,6 @@
         background-size: 100% 100%;
         /*background: url(http://pngimg.com/upload/snowflakes_PNG7559.png);*/
         background-image: url("{{asset('storage/images/snowflake.png')}}");
-        background-size: 100% 100%;
     }
     .sharpMedium {
         width: 28px;
@@ -117,12 +116,12 @@
             types = ["round", "star", "real", "sharp", "ring"],
             snowflakes = 50;
 
-        for (var i = 0; i < snowflakes; i++) {
-            var snowflakeDiv = document.createElement('div');
-            var sizeIndex = Math.ceil(Math.random() * 3) -1; //get random number between 0 and 2
-            var size = sizes[sizeIndex]; //get random size
-            var typeIndex = Math.ceil(Math.random() * 5) -1;
-            var type = types[typeIndex];
+        for (let i = 0; i < snowflakes; i++) {
+            let snowflakeDiv = document.createElement('div');
+            let sizeIndex = Math.ceil(Math.random() * 3) -1; //get random number between 0 and 2
+            let size = sizes[sizeIndex]; //get random size
+            let typeIndex = Math.ceil(Math.random() * 5) -1;
+            let type = types[typeIndex];
             TweenMax.set(snowflakeDiv, {attr: {class: type + size}, x: R(0,w), y: R(-200,-150) });
             container.appendChild(snowflakeDiv);
             snowing(snowflakeDiv);
