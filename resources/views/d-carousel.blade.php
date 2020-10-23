@@ -204,6 +204,7 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+<script src="{{asset('storage/libraries/mouse_move_effect/js/imagesloaded.pkgd.min.js')}}"></script>
 <script src="{{asset('storage/libraries/mouse_move_effect/js/three.min.js')}}"></script>
 <script src="{{asset('storage/libraries/mouse_move_effect/js/TweenMax.min.js')}}"></script><!--tweenmax is added in index file-->
 <script src="{{asset('storage/libraries/mouse_move_effect/js/hover-effect.umd.js')}}"></script>
@@ -231,7 +232,7 @@
     // myFunction(x) // Call listener function at run time
     // x.addListener(myFunction) // Attach listener function on state changes
 
-    let mySwiper2 = new Swiper('#swiper-container2', {
+    new Swiper('#swiper-container2', {
         watchSlidesProgress: true,
         watchSlidesVisibility: true,
         slidesPerView: 3,

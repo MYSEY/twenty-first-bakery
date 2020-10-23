@@ -73,12 +73,9 @@
             ::-webkit-scrollbar-thumb:hover {
                 background: #555;
             }
-            .loading{
-                display: none;
-            }
         </style>
     </head>
-    <body class="loading">
+    <body>
 
         <div>
 
@@ -97,7 +94,7 @@
 
         </div>
 
-        <script src="{{asset('storage/libraries/mouse_move_effect/js/imagesloaded.pkgd.min.js')}}"></script>
+
 
         <!--light gallery-->
         <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
@@ -121,10 +118,6 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
-
-            imagesLoaded( document.querySelectorAll('img'), () => {
-                document.body.classList.remove('loading');
-            });
         </script>
 
     </body>
