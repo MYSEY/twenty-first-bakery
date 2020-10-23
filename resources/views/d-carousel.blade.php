@@ -12,7 +12,7 @@
                     <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/1.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-                            <h1 class="d-overview-item-content-header">Monday</h1>
+{{--                            <h1 class="d-overview-item-content-header">Monday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
                                     <h4 class="d-overview-item-content-desc">Chocolate</h4>
@@ -27,10 +27,10 @@
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/12.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/16.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-                            <h1 class="d-overview-item-content-header">Tuesday</h1>
+{{--                            <h1 class="d-overview-item-content-header">Tuesday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
                                     <h4 class="d-overview-item-content-desc">Chocolate</h4>
@@ -45,10 +45,10 @@
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/13.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/14.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-                            <h1 class="d-overview-item-content-header">Wednesday</h1>
+{{--                            <h1 class="d-overview-item-content-header">Wednesday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
                                     <h4 class="d-overview-item-content-desc">Chocolate</h4>
@@ -63,10 +63,10 @@
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/12.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/13.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-                            <h1 class="d-overview-item-content-header">Thursday</h1>
+{{--                            <h1 class="d-overview-item-content-header">Thursday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
                                     <h4 class="d-overview-item-content-desc">Chocolate</h4>
@@ -81,10 +81,10 @@
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/12.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/10.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-                            <h1 class="d-overview-item-content-header">Friday</h1>
+{{--                            <h1 class="d-overview-item-content-header">Friday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
                                     <h4 class="d-overview-item-content-desc">Chocolate</h4>
@@ -99,10 +99,10 @@
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/12.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/7.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-                            <h1 class="d-overview-item-content-header">Saturday</h1>
+{{--                            <h1 class="d-overview-item-content-header">Saturday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
                                     <h4 class="d-overview-item-content-desc">Chocolate</h4>
@@ -117,10 +117,10 @@
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/12.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/4.png')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-                            <h1 class="d-overview-item-content-header">Sunday</h1>
+{{--                            <h1 class="d-overview-item-content-header">Sunday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
                                     <h4 class="d-overview-item-content-desc">Chocolate</h4>

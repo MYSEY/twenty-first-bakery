@@ -89,7 +89,7 @@
         gap: 10px;
     }
     .d-desktop-nav-social a{
-        padding: 10px;
+        padding: 20px;
         width: 30px;
         height: 30px;
         border-radius: 50%;

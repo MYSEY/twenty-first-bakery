@@ -165,6 +165,7 @@
         align-items: center;
         text-align: center;
         width: 60%;
+        padding: 0 30px;
     }
     .d-our-story-text .d-our-story-text-header{
         font-weight: bold;
