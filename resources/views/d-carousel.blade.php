@@ -218,27 +218,6 @@
 
 
 <script>
-    // function myFunction(x) {
-    //     if (x.matches) { // If media query matches
-    //         //console.log("mobile")
-    //         let mySwiper2 = new Swiper('#swiper-container2', {
-    //             watchSlidesProgress: true,
-    //             watchSlidesVisibility: true,
-    //             slidesPerView: 1,
-    //             spaceBetween: 0,
-    //             loop: true,
-    //             grabCursor: true,
-    //         })
-    //     } else {
-    //         //console.log("Desktop")
-    //
-    //     }
-    // }
-    //
-    // var x = window.matchMedia("(max-width: 700px)")
-    // myFunction(x) // Call listener function at run time
-    // x.addListener(myFunction) // Attach listener function on state changes
-
     new Swiper('#swiper-container2', {
         watchSlidesProgress: true,
         watchSlidesVisibility: true,

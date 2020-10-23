@@ -102,6 +102,11 @@
         width: 35px;
         height: 35px;
     }
+    @media only screen and (max-width: 600px) {
+        #container {
+            display: none;
+        }
+    }
 </style>
 
 
@@ -109,7 +114,23 @@
 
 
 <script>
-    $(document).ready(function() {
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+            console.log("mobile")
+        } else {
+            console.log("Desktop")
+            $(document).ready(function() {
+                snowRunning();
+            });
+        }
+    }
+
+    let x = window.matchMedia("(max-width: 700px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
+
+    function snowRunning(){
         let w = window.innerWidth , h = window.innerHeight,
             container = document.getElementById("container"),
             sizes = ["Small", "Medium", "Large"],
@@ -136,5 +157,5 @@
         function R(min,max) {
             return min + Math.random() * (max-min)
         };
-    });
+    }
 </script>

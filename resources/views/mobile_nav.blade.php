@@ -58,7 +58,7 @@
         .d-mobile-nav-background{
             width: 100%;
             height: 70px;
-            background-color: white;
+            background-color: #C8E9E2;
             overflow: hidden;
             z-index: 10;
             position: fixed;
