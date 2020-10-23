@@ -177,7 +177,7 @@
     }
     @media only screen and (max-width: 600px) {
         .d-our-story-background{
-            padding: 50px 10px;
+            padding: 50px 10px 0 10px;
         }
         .d-our-story-content{
             height: 100%;
@@ -202,6 +202,7 @@
         }
         .d-our-story-text{
             width: 100%;
+            padding: 0 10px;
         }
         .d-our-story-text .d-our-story-text-desc{
             font-size: 22px;

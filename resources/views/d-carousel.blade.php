@@ -5,7 +5,7 @@
     <div class="d-overview-background">
 
 
-        <div class="swiper-container" id="swiper-container2" style="width:80%;">
+        <div class="swiper-container" id="swiper-container2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide active-slider">
 
@@ -15,7 +15,7 @@
 {{--                            <h1 class="d-overview-item-content-header">Monday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Chocolate</h4>
+                                    <h4 class="d-overview-item-content-desc">Monday</h4>
                                 </div>
                             </figcaption>
                         </figure>
@@ -33,25 +33,7 @@
 {{--                            <h1 class="d-overview-item-content-header">Tuesday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Chocolate</h4>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!--content image-->
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
-                    </div>
-
-                </div>
-                <div class="swiper-slide">
-
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/14.jpg')}}" data-intensity="-0.8">
-                        <!--content text-->
-                        <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-{{--                            <h1 class="d-overview-item-content-header">Wednesday</h1>--}}
-                            <figcaption class="c4-layout-bottom-center">
-                                <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Chocolate</h4>
+                                    <h4 class="d-overview-item-content-desc">Tuesday</h4>
                                 </div>
                             </figcaption>
                         </figure>
@@ -63,19 +45,37 @@
                 </div>
                 <div class="swiper-slide">
 
-                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/13.jpg')}}" data-intensity="-0.8">
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/14.jpg')}}" data-intensity="-0.8">
                         <!--content text-->
                         <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
-{{--                            <h1 class="d-overview-item-content-header">Thursday</h1>--}}
+{{--                            <h1 class="d-overview-item-content-header">Wednesday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Chocolate</h4>
+                                    <h4 class="d-overview-item-content-desc">Wednesday</h4>
                                 </div>
                             </figcaption>
                         </figure>
                         <!--content image-->
                         <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
                         <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/13.jpg')}}" data-intensity="-0.8">
+                        <!--content text-->
+                        <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
+{{--                            <h1 class="d-overview-item-content-header">Thursday</h1>--}}
+                            <figcaption class="c4-layout-bottom-center">
+                                <div class="c4-rotate-up-right">
+                                    <h4 class="d-overview-item-content-desc">Thursday</h4>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <!--content image-->
+                        <img src="{{asset('storage/images/gallery_one.jpg')}}" alt="Image"/>
+                        <img src="{{asset('storage/images/gallery_one.jpg')}}" alt="Image Alt"/>
                     </div>
 
                 </div>
@@ -87,13 +87,13 @@
 {{--                            <h1 class="d-overview-item-content-header">Friday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Chocolate</h4>
+                                    <h4 class="d-overview-item-content-desc">Friday</h4>
                                 </div>
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/gallery_two.jpg')}}" alt="Image"/>
+                        <img src="{{asset('storage/images/gallery_two.jpg')}}" alt="Image Alt"/>
                     </div>
 
                 </div>
@@ -105,13 +105,13 @@
 {{--                            <h1 class="d-overview-item-content-header">Saturday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Chocolate</h4>
+                                    <h4 class="d-overview-item-content-desc">Saturday</h4>
                                 </div>
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/gallery_three.jpg')}}" alt="Image"/>
+                        <img src="{{asset('storage/images/gallery_three.jpg')}}" alt="Image Alt"/>
                     </div>
 
                 </div>
@@ -123,17 +123,24 @@
 {{--                            <h1 class="d-overview-item-content-header">Sunday</h1>--}}
                             <figcaption class="c4-layout-bottom-center">
                                 <div class="c4-rotate-up-right">
-                                    <h4 class="d-overview-item-content-desc">Chocolate</h4>
+                                    <h4 class="d-overview-item-content-desc">Sunday</h4>
                                 </div>
                             </figcaption>
                         </figure>
                         <!--content image-->
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
-                        <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
+                        <img src="{{asset('storage/images/gallery_four.jpg')}}" alt="Image"/>
+                        <img src="{{asset('storage/images/gallery_four.jpg')}}" alt="Image Alt"/>
                     </div>
 
                 </div>
             </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
 
 
@@ -148,7 +155,7 @@
         padding: 50px;
     }
     .swiper-container {
-        width: 600px;
+        width: 80%;
         height: 500px;
     }
 
@@ -156,7 +163,6 @@
     .d-overview-item{
         width: 100%;
         height: 100%;
-        cursor: pointer;
         overflow: hidden;
         position: relative;
     }
@@ -179,12 +185,12 @@
         color: white;
         z-index: 10000000;
     }
-    .d-overview-item-content-header{
-        font-size: 70px;
-        padding: 0;
-        margin: 0;
-        line-height: 1;
-    }
+    /*.d-overview-item-content-header{*/
+    /*    font-size: 70px;*/
+    /*    padding: 0;*/
+    /*    margin: 0;*/
+    /*    line-height: 1;*/
+    /*}*/
     .d-overview-item-content-desc{
         font-size: 46px;
         padding: 0;
@@ -193,9 +199,10 @@
     }
     @media only screen and (max-width: 600px) {
         .d-overview-background{
-            padding: 50px 0px;
+            padding: 50px 10px;
         }
         .swiper-container {
+            width: 100%;
             height: 300px;
         }
     }
@@ -239,6 +246,15 @@
         spaceBetween: 30,
         loop: true,
         grabCursor: true,
+        lazy: true,
+        pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
         breakpoints: {
             // when window width is >= 320px
             320: {
