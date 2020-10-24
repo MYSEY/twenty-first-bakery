@@ -45,7 +45,7 @@
         align-items: center;
     }
     .d-desktop-nav-menu{
-        flex: 1;
+        flex: 3;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -62,7 +62,6 @@
         padding: 10px;
         color: #653507;
         text-transform: uppercase;
-        width: 100px;
         letter-spacing: 3px;
         border-bottom: 2px solid transparent;
         transition: 0.3s ease;

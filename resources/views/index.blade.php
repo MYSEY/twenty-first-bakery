@@ -49,7 +49,7 @@
                 margin: 0;
                 box-sizing: border-box;
                 text-decoration: none;
-                font-family: helvethaica, Arial;
+                font-family: Optima, Arial;
             }
             a:hover{
                 text-decoration: none;

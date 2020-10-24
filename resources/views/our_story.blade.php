@@ -169,11 +169,13 @@
     }
     .d-our-story-text .d-our-story-text-header{
         font-weight: bold;
-        font-size: 40px;
+        font-size: 46px;
+        text-transform: uppercase;
     }
     .d-our-story-text .d-our-story-text-desc{
-        font-size: 22px;
+        font-size: 20px;
         text-align: left;
+        font-family: "Berlin Rounded";
     }
     @media only screen and (max-width: 600px) {
         .d-our-story-background{
