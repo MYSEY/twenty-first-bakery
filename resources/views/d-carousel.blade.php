@@ -98,14 +98,16 @@
                 </div>
             </div>
 
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+{{--            <!-- Add Pagination -->--}}
+{{--            <div class="swiper-pagination"></div>--}}
 
             <!-- Add Arrows -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
 
+        <div class="d-carousel-button d-carousel-button-left" onclick="prevCard()"><i class="fas fa-chevron-left"></i></div>
+        <div class="d-carousel-button d-carousel-button-right" onclick="nextCard()"><i class="fas fa-chevron-right"></i></div>
 
     </div>
 </div>
@@ -116,10 +118,7 @@
         height: auto;
         background-color: white;
         padding: 50px;
-    }
-    .swiper-container {
-        width: 80%;
-        height: 500px;
+        position: relative;
     }
 
 
@@ -160,6 +159,35 @@
         margin: 0;
         line-height: 1;
     }
+
+    .swiper-container {
+        width: 80%;
+        height: 500px;
+    }
+    .swiper-button-next{
+        color: #C8E9E2;
+        display: none;
+    }
+    .swiper-button-prev{
+        color: #C8E9E2;
+        display: none;
+    }
+    .d-carousel-button{
+        position: absolute;
+        color: #C8E9E2;
+        font-size: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+    }
+    .d-carousel-button-left{
+        left: 5%;
+    }
+    .d-carousel-button-right{
+        right: 5%;
+    }
     @media only screen and (max-width: 600px) {
         .d-overview-background{
             padding: 50px 10px;
@@ -167,6 +195,15 @@
         .swiper-container {
             width: 100%;
             height: 300px;
+        }
+        .d-carousel-button{
+            display: none;
+        }
+        .swiper-button-next{
+            display: block;
+        }
+        .swiper-button-prev{
+            display: block;
         }
     }
 </style>
@@ -180,9 +217,10 @@
 
 
 <script>
-    new Swiper('#swiper-container2', {
+    let swiper = new Swiper('#swiper-container2', {
         watchSlidesProgress: true,
         watchSlidesVisibility: true,
+        watchOverflow: true,
         slidesPerView: 3,
         spaceBetween: 30,
         loop: true,
@@ -213,7 +251,14 @@
                 spaceBetween: 30
             }
         }
-    })
+    });
+
+    function prevCard(){
+        swiper.slidePrev();
+    }
+    function nextCard(){
+        swiper.slideNext();
+    }
 
 
     $(document).ready(function() {

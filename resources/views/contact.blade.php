@@ -26,7 +26,10 @@
                             Please provide a valid password.
                         </div>
                     </div>
-                    <button  data-aos="slide-up" type="submit" class="d-btn-submit btn btn-primary">Submit</button>
+                    <div data-aos="slide-up" class="form-group">
+                        <button type="submit" class="d-btn-submit btn">Submit</button>
+                    </div>
+
                 </form>
 
                 <script>
@@ -118,6 +121,24 @@
     .d-contact-text-desc{
         font-size: 22px;
         line-height: 1;
+    }
+    .form-control{
+        border-radius: 0;
+    }
+    .form-control:focus{
+        outline: none;
+        box-shadow: 0 0 0 4px rgba(200, 233, 226, 1);
+    }
+    .btn{
+        border-radius: 0;
+        background-color: rgb(200, 233, 226);
+        color: black;
+        border-color: rgb(200, 233, 226);
+    }
+    .btn:hover{
+        background-color: rgb(113, 227, 203);
+        color: black;
+        border-color: rgb(113, 227, 203);
     }
     @media only screen and (max-width: 600px) {
         .d-contact-background{
