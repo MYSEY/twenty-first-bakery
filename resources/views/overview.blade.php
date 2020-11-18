@@ -3,7 +3,7 @@
     <div class="d-overview-background">
         <div class="d-overview-content">
 
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/1.jpg')}}" data-intensity="-0.8">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="/images/displacement/1.jpg" data-intensity="-0.8">
                 <!--content text-->
                 <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
                     <h1 class="d-overview-item-content-header">Love</h1>
@@ -14,11 +14,11 @@
                     </figcaption>
                 </figure>
                 <!--content image-->
-                <img src="{{asset('storage/images/image-one.jpg')}}" alt="Image"/>
-                <img src="{{asset('storage/images/image-one.jpg')}}" alt="Image Alt"/>
+                <img src="/images/image-one.jpg" alt="Image"/>
+                <img src="/images/image-one.jpg" alt="Image Alt"/>
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/13.jpg')}}" data-intensity="-0.8">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="/images/displacement/13.jpg" data-intensity="-0.8">
                 <!--content text-->
                 <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
                     <h1 class="d-overview-item-content-header">Love</h1>
@@ -29,11 +29,11 @@
                     </figcaption>
                 </figure>
                 <!--content image-->
-                <img src="{{asset('storage/images/image-two.jpg')}}" alt="Image"/>
-                <img src="{{asset('storage/images/image-two.jpg')}}" alt="Image Alt"/>
+                <img src="/images/image-two.jpg" alt="Image"/>
+                <img src="/images/image-two.jpg" alt="Image Alt"/>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="{{asset('storage/libraries/mouse_move_effect/img/displacement/12.jpg')}}" data-intensity="-0.8">
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-delay="300" class="d-overview-item" data-displacement="/images/displacement/12.jpg" data-intensity="-0.8">
                 <!--content text-->
                 <figure style="width: 100%; height: 100%; --primary-color: transparent; --secondary-color: transparent;" class="d-overview-item-content c4-izmir c4-border-cc-2 c4-image-blur c4-gradient-bottom">
                     <h1 class="d-overview-item-content-header">Love</h1>
@@ -44,8 +44,8 @@
                     </figcaption>
                 </figure>
                 <!--content image-->
-                <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image"/>
-                <img src="{{asset('storage/images/image-three.jpg')}}" alt="Image Alt"/>
+                <img src="/images/image-three.jpg" alt="Image"/>
+                <img src="/images/image-three.jpg" alt="Image Alt"/>
             </div>
 
         </div>

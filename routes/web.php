@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Homes\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +21,5 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/home',[HomeController::class,'index'])->name('home');

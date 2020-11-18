@@ -1,8 +1,8 @@
 <div class="d-footer">
 
-    <div class="d-footer-background" style="background-image: url('{{asset('storage/images/footer.jpg')}}')">
+    <div class="d-footer-background" style="background-image: url('/images/footer.jpg')">
         <div class="d-footer-content">
-            <img class="d-footer-logo" src="{{asset('storage/images/logo.svg')}}" alt="">
+            <img class="d-footer-logo" src="/images/logo.svg" alt="">
             <p class="d-footer-text">&copy Twenty First Backery — All Rights Reserved<br/>Proudly Made For You.</p>
             <div class="d-footer-social">
                 <a href=""><i class="fab fa-facebook-f"></i></a>

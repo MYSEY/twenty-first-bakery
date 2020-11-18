@@ -2,21 +2,15 @@
 
     <div class="d-desktop-nav-content">
         <div class="d-desktop-nav-logo">
-            <a href=""><img src="{{asset('storage/images/logo.svg')}}" alt="Site Logo"></a>
+            <a href="{{url('/home')}}"><img src="/images/logo.svg" alt="Site Logo"></a>
         </div>
         <div class="d-desktop-nav-menu">
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="d-desktop-nav-social">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href="{{url('/home')}}">MENU</a>
+            <a href="#">OUR STORY</a>
+            <a href="#">NEW & EVENT</a>
+            <a href="#">ABOUT US</a>
         </div>
     </div>
-
 </div>
 
 <style>

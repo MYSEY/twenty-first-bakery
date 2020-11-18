@@ -3,7 +3,7 @@
     <div class="d-mobile-nav-background">
         <div class="d-mobile-nav-content">
             <div class="d-mobile-nav-logo">
-                <a href=""><img src="{{asset('storage/images/logo.svg')}}" alt="Site Logo"></a>
+                <a href=""><img src="/images/logo.svg" alt="Site Logo"></a>
             </div>
             <div class="d-mobile-nav-icon">
                 <button data-pushbar-target="mypushbar1" class="hamburger" type="button">
@@ -28,14 +28,12 @@
         </button>
 
         <div class="d-nav-menu-wrapper">
-            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'home' ? 'd-nav-menu-item-active' : '' }}" href="#">Hello</a>
+            <a class="d-nav-menu-item {{ Route::currentRouteName() == 'home' ? 'd-nav-menu-item-active' : '' }}" href="{{url('/home')}}">Hello</a>
             <a class="d-nav-menu-item {{ Route::currentRouteName() == 'product' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
             <a class="d-nav-menu-item {{ Route::currentRouteName() == 'dealer' ? 'd-nav-menu-item-active' : '' }}" href="#">menu</a>
             <a class="d-nav-menu-item {{ Route::currentRouteName() == 'contact' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
             <a class="d-nav-menu-item {{ Route::currentRouteName() == 'test_drive' ? 'd-nav-menu-item-active' : '' }}" href="#">Menu</a>
         </div>
-
-
     </div>
 </div>
 

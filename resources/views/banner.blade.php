@@ -2,7 +2,7 @@
 
     <div class="d-banner-background">
         <div class="d-banner-content" >
-            <img src="{{asset('storage/images/banner.jpg')}}" alt="">
+            <img src="/images/banner.jpg" alt="">
         </div>
     </div>
 

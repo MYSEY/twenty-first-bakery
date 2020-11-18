@@ -2,7 +2,7 @@
 
     <div class="d-table-cake-background">
         <div class="d-table-cake-content">
-            <img src="{{asset('storage/images/table_cake.jpg')}}" alt="">
+            <img src="/images/table_cake.jpg" alt="">
         </div>
     </div>
 

@@ -24,7 +24,7 @@
         <!--use for mobile navigation drawer-->
         <!--pushbar-->
         <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css"/>
-        <link href="{{asset('storage/libraries/hamburger/hamburgers.min.css')}}" rel="stylesheet">
+        <link href="/libraries/hamburger/hamburgers.min.css" rel="stylesheet">
 
         <!--use gallery lightbox-->
         <!--light gallery-->
@@ -32,11 +32,11 @@
 
         <!--use for gallery hover effect-->
         <!--Izmir - ImageHover CSS Library-->
-        <link rel="stylesheet" href="{{asset('storage/libraries/Izmir_hover_effect/izmir.min.css')}}">
+        <link rel="stylesheet" href="/libraries/Izmir_hover_effect/izmir.min.css">
 
         <!--use for overview hover effect-->
         <!--Hover CSS Library-->
-        <link href="{{asset('storage/libraries/hover/hover-min.css')}}" rel="stylesheet">
+        <link href="/libraries/hover/hover-min.css" rel="stylesheet">
 
 
         <style>
@@ -81,16 +81,15 @@
 
             @include('desktop_nav')
             @include('mobile_nav')
-            @include('banner')
-            @include('our_story')
-{{--            @include('overview')--}}
-            @include('d-carousel')
-            @include('map')
-            @include('contact')
-            @include('table_cake')
-            @include('gallery')
-            @include('footer')
-            @include('snow')
+            {{-- @include('banner') --}}
+            {{-- @include('our_story') --}}
+            {{-- @include('d-carousel') --}}
+            {{-- @include('map') --}}
+            {{-- @include('contact') --}}
+            {{-- @include('table_cake') --}}
+            {{-- @include('gallery') --}}
+            {{-- @include('footer') --}}
+            {{-- @include('snow') --}}
 
         </div>
 

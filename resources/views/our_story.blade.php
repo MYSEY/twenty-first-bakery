@@ -1,11 +1,11 @@
 <div class="d-our-story">
 
-    <div class="d-our-story-background" style="background-image: url('{{asset('storage/images/our_story_background.jpg')}}')">
+    <div class="d-our-story-background" style="background-image: url('/images/our_story_background.jpg')">
 
         <div class="d-our-story-content" >
             <div class="d-our-story-img">
                 <div id="d-our-story-main-image">
-                    <img src="{{asset('storage/images/our_story.jpg')}}" alt="">
+                    <img src="/images/our_story.jpg" alt="">
 
 {{--                    <div class="d-our-story-image-staff">--}}
 {{--                        <img src="{{asset('storage/images/people.png')}}" alt="">--}}
